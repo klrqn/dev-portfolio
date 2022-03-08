@@ -3840,15 +3840,15 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url(../../images/flowers.jpg);
+		background: url(../../images/RI_Narragansett\ Bay_50_red.jpg);
 		background-size: 100%;
-		background-position-y: 90%;
+		background-position-y: 60%;
 		margin: 1%;
 	}
 
 	#intro .button {
 		font-weight: 600;
-		background: #EEEFF1;
+		background: #fff;
 	}
 
 	#intro .button:hover {
@@ -3863,8 +3863,9 @@ input, select, textarea {
 		-webkit-transition: opacity 0.75s ease-in-out;
 		-ms-transition: opacity 0.75s ease-in-out;
 		transition: opacity 0.75s ease-in-out;
-		border: 0.5rem solid white;
+		border: 0.1rem solid white;
 		border-radius: 50%;
+		box-shadow: 0px 0px 10px 10px #fff;
 	}
 
 	#intro .content {
@@ -3876,8 +3877,9 @@ input, select, textarea {
 		-webkit-transition-delay: 0.35s;
 		-ms-transition-delay: 0.35s;
 		transition-delay: 0.35s;
-		text-shadow: -1px .5px 1px white;
-	}
+		text-shadow: 4px 4px 10px #fff;
+	};
+	
 
 	@media screen and (max-width: 980px) {
 
@@ -3918,4 +3920,3 @@ input, select, textarea {
 			}
 
 		}
-
