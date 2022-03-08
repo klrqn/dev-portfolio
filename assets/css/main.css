@@ -3877,9 +3877,8 @@ input, select, textarea {
 		-webkit-transition-delay: 0.35s;
 		-ms-transition-delay: 0.35s;
 		transition-delay: 0.35s;
-		text-shadow: 4px 4px 10px #fff;
-	};
-	
+		text-shadow: 1px 1px 3px white, 3px 3px 4px white, -1px -1px 2px white, 0px 0px 10px white, 0px 0px 10px white, 1px -1px 2px white;
+	}	
 
 	@media screen and (max-width: 980px) {
 
