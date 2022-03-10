@@ -3919,3 +3919,12 @@ input, select, textarea {
 			}
 
 		}
+
+/* initially hide projects */
+#hideProjects {
+	display: hidden;
+}
+
+.expand-projects:hover {
+	cursor: row-resize;
+}
