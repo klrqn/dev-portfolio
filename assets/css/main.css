@@ -3840,7 +3840,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url(../../images/RI_Narragansett\ Bay_50_red.jpg);
+		background: url(../../images/RI_Narragansett\ Bay_reduced.jpg);
 		background-size: 100%;
 		background-position-y: 60%;
 		margin: 1%;
@@ -3925,6 +3925,3 @@ input, select, textarea {
 	display: hidden;
 }
 
-.expand-projects:hover {
-	cursor: row-resize;
-}

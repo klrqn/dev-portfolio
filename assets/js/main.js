@@ -144,3 +144,7 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+
+// initialize AOS
+AOS.init()

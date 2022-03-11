@@ -5,6 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<script src="https://kit.fontawesome.com/6a940b9bde.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/collapse.css" />
 	</head>
@@ -45,14 +46,14 @@
 							<span class="image"><img src="images/profilepic" alt="" /></span>
 							<div class="content">
 								<header>
-									<h1>Hi, I'm <br> Scott Burton</h1>
+									<h1>Hello, I'm <br> Scott Burton</h1>
 									<!-- <p>I'd like to build<br />
 									you a website<br /> -->
 									</p>
 								</header>
 								<footer>
 									<ul class="actions">
-										<li><a href="#footer" class="button big">Let's Connect!</a></li>
+										<li><a href="#footer" class="button big">Contact me about your next website</a></li>
 									</ul>
 								</footer>
 							</div>
@@ -63,18 +64,18 @@
 					<section class="wrapper style2 special">
 						<div class="inner">
 							<header>
-								<h2>About</h2>
+								<h2>About Me</h2>
 								<p> I'm a Full Stack Developer<br />
 								Using HTML, CSS, Javascript<br />
 								Photography and Design<br />
 							</p>
 							</header>
 							<ul class="icons major style2">
-								<li><span class="icon solid fa-camera-retro"><span class="label">Lorem</span></span></li>
-								<li><span class="icon solid fa-globe-americas"><span class="label">Ipsum</span></span></li>
-								<li><span class="icon solid fa-code"><span class="label">Dolor</span></span></li>
-								<li><span class="icon solid fa-cog"><span class="label">Feugiat</span></span></li>
-								<li><span class="icon solid fa-drafting-compass"><span class="label">Tempus</span></span></li>
+								<li><span class="icon solid fa-camera-retro"><span class="label">Camera</span></span></li>
+								<li><span class="icon solid fa-globe-americas"><span class="label">Globe</span></span></li>
+								<li><span class="icon solid fa-code"><span class="label">Code</span></span></li>
+								<li><span class="icon solid fa-cog"><span class="label">Settings</span></span></li>
+								<li><span class="icon solid fa-drafting-compass"><span class="label">Engineering</span></span></li>
 							</ul>
 							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos malesuada fames ac turpis egestas. In non lorem amet. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique eu nibh.</p>
 							<footer>
@@ -90,50 +91,43 @@
 						<div class="inner">
 							<header class="collapsible">
 								<h2 class="expand-projects">Projects</h2>
-								<p>Previous Clients<br />
-								and Designs</p>
+								<!-- <p>Previous Clients<br />
+								and Designs</p> -->
 							</header>
-							<div class="" id="project-showcase">
-								<section class="spotlight ">
-									<span class="image"><img src="images/pic02.jpg" alt="" /></span>
+							<div id="project-showcase">
+								<section 	class="spotlight" 	
+											data-aos="fade-up-left" 
+											data-aos-duration="3000"
+											data-aos-easing="ease-in-out">
+									<span class="image"><img src="images/bridge1.jpg" alt="" /></span>
 									<div class="content">
 										<header>
 											<h3>Project 1</h3>
 										</header>
 										<p>Vinyl try-hard humblebrag actually, forage portland ethical taxidermy pork belly. Vice adaptogen aesthetic vape. Chambray bespoke mixtape cold-pressed etsy kombucha, shaman wolf.</p>
-										<footer>
-											<ul class="actions">
-												<li><a href="#" class="button">Details</a></li>
-											</ul>
-										</footer>
 									</div>
 								</section>
-								<section class="spotlight ">
-									<span class="image"><img src="images/pic03.jpg" alt="" /></span>
+								<section class="spotlight" data-aos="fade-up-right" data-aos-duration="2500" data-aos-easing="ease-in-out">
+									<span class="image"><img src="images/arch2.jpg" alt="" /></span>
 									<div class="content">
 										<header>
 											<h3>Project 2</h3>
 										</header>
 										<p>Axe pug 3 wolf moon squid blog edison bulb. Gluten-free photo booth unicorn tacos you probably haven't heard of them truffaut fixie ethical tofu narwhal thundercats man braid 3 wolf moon palo santo dreamcatcher. </p>
-										<footer>
-											<ul class="actions">
-												<li><a href="#" class="button">Details</a></li>
-											</ul>
-										</footer>
 									</div>
 								</section>
-								<section class="spotlight">
-									<span class="image"><img src="images/pic04.jpg" alt="" /></span>
+								<section class="spotlight" data-aos="fade-up-left" data-aos-duration="2000" data-aos-easing="ease-in-out">
+									<span class="image"><img src="images/solar3.jpg" alt="" /></span>
 									<div class="content">
 										<header>
 											<h3>Project 3</h3>
 										</header>
 										<p>Flexitarian letterpress shaman artisan, affogato art party selvage poutine. Unicorn health goth yuccie post-ironic letterpress, shoreditch farm-to-table keffiyeh.</p>
-										<footer>
+										<!-- <footer>
 											<ul class="actions">
 												<li><a href="#" class="button">Details</a></li>
 											</ul>
-										</footer>
+										</footer> -->
 									</div>
 								</section>
 							</div>
@@ -143,17 +137,12 @@
 				<!-- Three -->
 					<section class="wrapper style3 special">
 						<div class="inner">
-							<header>
-								<h2>Local to you</h2>
-								<p>Aptent taciti sociosqu litora torquent et conubia sed etiam.<br />
-								Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam<br />
-								turpis mauris, ultricies erat malesuada quis.</p>
+							<header data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="4000">
+								<h2>Local Matters</h2>
+								<p>I am 100% giving our small state the recognition it deserves. <br />
+								Making sure that those places that need better online representation<br />
+								Have it in the form of an attractive, inviting web presence. </p>
 							</header>
-							<footer>
-								<ul class="actions special">
-									<li><a href="#" class="button big">Get Started</a></li>
-								</ul>
-							</footer>
 						</div>
 					</section>
 
@@ -162,9 +151,9 @@
 						<div class="inner">
 							<section>
 								<header>
-									<h3>Magna lorem ipsum</h3>
+									<h3>Contact Me</h3>
 								</header>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos magna fames ac turpis egestas amet non lorem amet.</p>
+								<p>I would love to hear from you, please reach out with any questions, or just to say 'hey'! I'm open to freelance projects and can work with you to determine scope and scale of your .</p>
 								<ul class="icons">
 									<li><a href="https://www.linkedin.com/in/sbburton/" class="icon brands fa-linkedin"><span class="label">GitHub</span></a></li>
 									<li><a href="https://github.com/klrqn" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
@@ -195,6 +184,7 @@
 			</div>
 
 		<!-- Scripts -->
+			<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
